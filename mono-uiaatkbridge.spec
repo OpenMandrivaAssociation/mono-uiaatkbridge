@@ -2,7 +2,7 @@
 
 Name:     	mono-%{oname}
 Version:	0.9
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
 Source0:	ftp://ftp.novell.com/pub/mono/uia/%{oname}-%{version}.tar.bz2
@@ -49,4 +49,4 @@ rm -rf %buildroot
 %defattr(-, root, root)
 %_libdir/uiaatkbridge/UiaAtkBridge.dll*
 %_prefix/lib/mono/gac/UiaAtkBridge
-%_libdir/uiaatkbridge/*.so*
+%_libdir/uiaatkbridge/*.so
