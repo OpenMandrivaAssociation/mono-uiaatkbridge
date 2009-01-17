@@ -2,7 +2,7 @@
 
 Name:     	mono-%{oname}
 Version:	0.9
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
 Source0:	ftp://ftp.novell.com/pub/mono/uia/%{oname}-%{version}.tar.bz2
@@ -13,6 +13,7 @@ BuildRequires:	atk-devel
 BuildRequires:	gtk2-devel
 BuildRequires:	glib-sharp2
 BuildRequires:	gtk-sharp2
+Requires:	libat-spi
 Summary:	UIA to ATK Bridge
 Group:		Development/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
