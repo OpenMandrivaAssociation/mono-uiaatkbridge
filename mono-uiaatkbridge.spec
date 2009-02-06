@@ -1,14 +1,13 @@
 %define oname uiaatkbridge
 
 Name:     	mono-%{oname}
-Version:	0.9
-Release:	%mkrel 3
+Version:	0.9.1
+Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
 Source0:	ftp://ftp.novell.com/pub/mono/uia/%{oname}-%{version}.tar.bz2
-Patch0:		uiaatkbridge-0.9-fix-linkage.patch
 BuildRequires:	mono-devel >= 2.2
-BuildRequires:	mono-uia
+BuildRequires:	mono-uia >= 0.9.1
 BuildRequires:	atk-devel
 BuildRequires:	gtk2-devel
 BuildRequires:	glib-sharp2
@@ -31,7 +30,6 @@ Automation core to send it automation events and provider information.
 
 %prep
 %setup -q -n %oname-%version
-%patch0 -p0
 
 %build
 %configure2_5x --disable-static
