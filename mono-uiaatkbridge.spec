@@ -5,7 +5,7 @@ Version:	0.9.1
 Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
-Source0:	ftp://ftp.novell.com/pub/mono/uia/%{oname}-%{version}.tar.bz2
+Source0:	ftp://ftp.novell.com/pub/mono/uia/%{version}/%{oname}-%{version}.tar.bz2
 BuildRequires:	mono-devel >= 2.2
 BuildRequires:	mono-uia >= 0.9.1
 BuildRequires:	atk-devel
