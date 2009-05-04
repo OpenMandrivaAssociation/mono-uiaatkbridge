@@ -1,17 +1,17 @@
 %define oname uiaatkbridge
 
 Name:     	mono-%{oname}
-Version:	0.9.1
+Version:	1.0
 Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
-Source0:	ftp://ftp.novell.com/pub/mono/uia/%{version}/%{oname}-%{version}.tar.bz2
-BuildRequires:	mono-devel >= 2.2
-BuildRequires:	mono-uia >= 0.9.1
+Source0:	http://ftp.novell.com/pub/mono/sources/uiaatkbridge/%{oname}-%{version}.tar.bz2
+BuildRequires:	mono-devel >= 2.4
+BuildRequires:	mono-uia >= 1.0
 BuildRequires:	atk-devel
-BuildRequires:	gtk2-devel
-BuildRequires:	glib-sharp2
-BuildRequires:	gtk-sharp2
+BuildRequires:	gtk2-devel >= 2.12
+BuildRequires:	glib-sharp2 >= 2.12.8
+BuildRequires:	gtk-sharp2 >= 2.12.8
 Requires:	libat-spi
 Summary:	UIA to ATK Bridge
 Group:		Development/Other
