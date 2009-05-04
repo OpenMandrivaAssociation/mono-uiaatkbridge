@@ -32,7 +32,7 @@ Automation core to send it automation events and provider information.
 %setup -q -n %oname-%version
 
 %build
-%configure2_5x --disable-static
+%configure2_5x --disable-static --disable-tests
 make
 
 %install
