@@ -5,7 +5,7 @@ Version:	2.0
 Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
-Source0:	http://ftp.novell.com/pub/mono/sources/uiaatkbridge/%{oname}-%{version}.tar.bz2
+Source0:	http://mono-a11y.org/releases/2.0/sources/%{oname}-%{version}.tar.bz2
 BuildRequires:	mono-devel >= 2.4
 BuildRequires:	mono-uia >= 2.0
 BuildRequires:	atk-devel
