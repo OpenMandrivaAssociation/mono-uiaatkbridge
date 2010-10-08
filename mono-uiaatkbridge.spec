@@ -1,13 +1,13 @@
 %define oname uiaatkbridge
 
 Name:     	mono-%{oname}
-Version:	2.0
+Version:	2.1
 Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-a11y.org/
-Source0:	http://mono-a11y.org/releases/2.0/sources/%{oname}-%{version}.tar.bz2
+Source0:	http://mono-a11y.org/releases/%{version}/sources/%{oname}-%{version}.tar.bz2
 BuildRequires:	mono-devel >= 2.4
-BuildRequires:	mono-uia >= 2.0
+BuildRequires:	mono-uia >= 2.1
 BuildRequires:	atk-devel
 BuildRequires:	gtk2-devel >= 2.12
 BuildRequires:	glib-sharp2 >= 2.12.8
