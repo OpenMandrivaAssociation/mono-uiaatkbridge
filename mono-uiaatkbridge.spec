@@ -2,7 +2,7 @@
 
 Name:     	mono-%{oname}
 Version:	2.1
-Release:	%mkrel 1
+Release:	2
 License:	MIT or X11
 URL:		https://www.mono-a11y.org/
 Source0:	http://mono-a11y.org/releases/%{version}/sources/%{oname}-%{version}.tar.bz2
